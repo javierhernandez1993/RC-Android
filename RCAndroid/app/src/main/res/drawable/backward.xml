@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--By setting the android:oneshot attribute of the list to true,-->
+    <!--it will cycle just once then stop and hold on the last frame.-->
+    <!--If it is set false then the animation will loop.-->
+    android:oneshot="false">
+
+    <item android:drawable="@drawable/frame1sq" android:duration="50" />
+    <item android:drawable="@drawable/fb2sq" android:duration="50" />
+    <item android:drawable="@drawable/fb3sq" android:duration="50" />
+    <item android:drawable="@drawable/fb4sq" android:duration="50" />
+    <item android:drawable="@drawable/fb5sq" android:duration="50" />
+</animation-list>
